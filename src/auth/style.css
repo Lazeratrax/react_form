@@ -1,0 +1,36 @@
+
+.ant-tooltip {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    /* display: block; */
+}
+
+.ant-tooltip-inner {
+    font-family: SF Compact Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #939292; 
+    background-color: transparent;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    margin-left: -194px;
+    margin-top: -15px;
+}
+
+.ant-tooltip-placement-bottom .ant-tooltip-arrow, .ant-tooltip-placement-bottomLeft .ant-tooltip-arrow, .ant-tooltip-placement-bottomRight .ant-tooltip-arrow {
+    border-bottom-color: transparent;
+}
+
+.ant-tooltip-arrow {
+    display: none;
+}
+
+.ant-input:focus {
+  border: none;
+} 
